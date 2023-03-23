@@ -6,6 +6,7 @@ WHITE = (255, 255, 255)
 FPS = 60
 
 class Cell:
+    # TODO: Write Cell class docstring 
     def __init__(self, i: int, j: int, size: float, alive: bool = False) -> None:
         """Initialise une cellule à une position donnée sur la grille.
 
@@ -34,6 +35,7 @@ class Cell:
 
 
 class Grid:
+    # TODO: #1 Write Grid class docstring 
     def __init__(self, n_rows: int, n_cols: int, cell_size: float) -> None:
         """Initialise une grille de cellules.
 
@@ -144,6 +146,7 @@ class Grid:
 
 
 class Game:
+    # TODO: Write Game class docstring 
     def __init__(self, n_rows: int, n_cols: int, cell_size: float):
         pygame.init()
         pygame.font.init()
